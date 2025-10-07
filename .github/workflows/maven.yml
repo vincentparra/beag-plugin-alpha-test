@@ -11,8 +11,8 @@ name: Java CI with Maven
 on:
   push:
     branches: [ "master" ]
-  pull_request:
-    branches: [ "master" ]
+  # pull_request:
+    # branches: [ "master" ]          this is removed to avoid multiple checks on our alpha test but this should be included on all Java CI
 
 jobs:
   build:
