@@ -59,7 +59,6 @@ public class ToDoList {
             System.out.println("4. Delete Task");
             System.out.println("5. Exit");
             System.out.print("> ");
-
             String choice = scanner.nextLine();
 
             switch (choice) {
