@@ -43,8 +43,8 @@
                 <artifactId>beag-plugin</artifactId>
                 <version>2.2.9</version>
                 <configuration>
-                    <excludedFiles>src/java/com/rocs/beag/plugin/test/BeagPluginTest.java</excludedFiles>
-                <configuration>
+                    <excludedFiles>src/main/java/com/rocs/beag/plugin/test/BeagPluginTest.java</excludedFiles>
+                </configuration>
                 <executions>
                     <execution>
                         <goals>
