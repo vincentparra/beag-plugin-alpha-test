@@ -32,7 +32,7 @@
         <dependency>
             <groupId>com.github.vincentparra</groupId>
             <artifactId>beag-plugin</artifactId>
-            <version>2.2.9</version>
+            <version>2.2.10</version>
         </dependency>
     </dependencies>
 
@@ -41,7 +41,7 @@
             <plugin>
                 <groupId>com.github.vincentparra</groupId>
                 <artifactId>beag-plugin</artifactId>
-                <version>2.2.9</version>
+                <version>2.2.10</version>
                 <configuration>
                     <excludedFiles>src/main/java/com/rocs/beag/plugin/test/BeagPluginTest.java</excludedFiles>
                 </configuration>
