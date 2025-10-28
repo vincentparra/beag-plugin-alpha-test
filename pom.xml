@@ -40,6 +40,9 @@
                 <groupId>com.github.vincentparra</groupId>
                 <artifactId>beag-plugin</artifactId>
                 <version>2.2.10</version>
+                <configuration>
+                    <excludedFiles>src/main/java/com/rocs/beag/plugin/test/BeagPluginTest.java</excludedFiles> <!--Since there is no code inside we will exclude it from scanning-->
+                </configuration>
                 <executions>
                     <execution>
                         <goals>
